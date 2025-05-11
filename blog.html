@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog - EphyBlogs</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">EphyBlogs</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+      <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+    </nav>
+  </header>
+  <main>
+    <section class="blog-list">
+      <h1>Blog Posts</h1>
+      <div class="categories">
+        <button class="category-btn" data-category="all">All</button>
+        <button class="category-btn" data-category="ai">AI</button>
+        <button class="category-btn" data-category="finance">Financial Literacy</button>
+        <button class="category-btn" data-category="cyber">Cyber Security</button>
+      </div>
+      <ul class="posts">
+        <li class="post-item" data-category="ai">
+          <a href="post.html">The Rise of AI in Everyday Life</a>
+          <span class="category">AI</span>
+        </li>
+        <li class="post-item" data-category="finance">
+          <a href="#">5 Steps to Financial Freedom</a>
+          <span class="category">Financial Literacy</span>
+        </li>
+        <li class="post-item" data-category="cyber">
+          <a href="#">Staying Safe Online: Cyber Security Basics</a>
+          <span class="category">Cyber Security</span>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 EphyBlogs. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
